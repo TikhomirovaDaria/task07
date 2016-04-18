@@ -41,8 +41,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Collections\ArrayListWrapper.cs" />
+    <Compile Include="Collections\Dictionary1Wrapper.cs" />
+    <Compile Include="Collections\Dictionary2Wrapper.cs" />
+    <Compile Include="Collections\HashSetWrapper.cs" />
+    <Compile Include="Collections\Hashtable1Wrapper.cs" />
+    <Compile Include="Collections\ListWrapper.cs" />
+    <Compile Include="Collections\SortedListWrapper.cs" />
+    <Compile Include="Collections\Hashtable2Wrapper.cs" />
+    <Compile Include="Controller.cs" />
+    <Compile Include="Model\CollectionType.cs" />
+    <Compile Include="Model\ICollectionWrapper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Collections\StringWrapper.cs" />
+    <Compile Include="Test\CollectionTester.cs" />
+    <Compile Include="Test\TestingData.cs" />
+    <Compile Include="Test\TestingOptions.cs" />
+    <Compile Include="Test\TestingResult.cs" />
+    <Compile Include="TikhomirovaDaria_TestCollection.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
